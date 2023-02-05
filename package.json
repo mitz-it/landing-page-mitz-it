@@ -1,7 +1,6 @@
 {
   "name": "landing-page-mitz-it",
   "version": "1.0.0",
-  "homepage": "landing-page-mitz-it/",
   "private": true,
   "dependencies": {
     "@craco/craco": "^7.0.0-alpha.0",
