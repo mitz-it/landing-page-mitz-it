@@ -1,1 +1,1 @@
-# landing-page-mitz-it-React
+# landing-page-mitz
