@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Archia';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Archia'), url('./fonts/archia-regular-webfont.woff') format('woff');
+}

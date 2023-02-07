@@ -1,14 +1,11 @@
 import React from 'react'
-
 import { Helmet } from 'react-helmet'
 
-import './landingpagemitzit.css'
-
-const Landingpagemitzit = (props) => {
+const HomePage = (props) => {
   return (
     <div className="landingpagemitzit-container">
       <Helmet>
-        <title>exported project</title>
+        <title>Mitz IT</title>
       </Helmet>
       <div className="landingpagemitzit-landingpagemitzit">
         <div className="landingpagemitzit-banner">
@@ -449,4 +446,4 @@ const Landingpagemitzit = (props) => {
   )
 }
 
-export default Landingpagemitzit
+export default HomePage
