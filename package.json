@@ -1,13 +1,10 @@
 {
   "name": "landing-page-mitz-it",
-  "homepage": "https://vinialexandre.github.io/landing-page-mitz-it",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "next",
+    "start": "next start",
     "build": "next build",
     "lint": "next lint"
   },
@@ -32,8 +29,5 @@
     "react-dom": "^18.2.0",
     "react-helmet": "^6.1.0",
     "react-router-dom": "^6.8.1"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
