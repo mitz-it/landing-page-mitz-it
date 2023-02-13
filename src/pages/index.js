@@ -18,8 +18,8 @@ const HomePage = (props) => {
           <span className="mitz-flex-header">
             <AnchorLink href="#about">sobre</AnchorLink>
             <AnchorLink href="#services">nossos serviços</AnchorLink>
-            <AnchorLink href="#footer">nosso time</AnchorLink>
-            <AnchorLink href="#footer">contato</AnchorLink>
+            <AnchorLink href="#team">nosso time</AnchorLink>
+            <AnchorLink href="#contact">contato</AnchorLink>
           </span>
 
           <span className="mitz-title-header">
@@ -41,11 +41,8 @@ const HomePage = (props) => {
           <div className="container">
             <h2>Sobre nós</h2>
             <span className="mitz-about-subtitle">
-              Consultoria de arquitetura e outsourcing de desenvolvimento de<br></br>
               software focado 100% no que o cliente realmente necessita.
             </span>
-            <br></br>
-            <br></br>
             <span className="mitz-about-text">
               <p>
                 Somos uma empresa que apoia desde as camadas mais baixas de
@@ -108,127 +105,145 @@ const HomePage = (props) => {
         </div>
 
         <div className="mitz-services" id="services">
-        <div className="landingpagemitzit-nossosservios">
-        <span className="landingpagemitzit-text046">
-          <span>Nossos serviços</span>
-        </span>
-        <img
-          alt="Rectangle11551"
-          src="/playground_assets/rectangle11551-60kn-700h.png"
-          className="landingpagemitzit-rectangle1"
-        />
-        <div className="landingpagemitzit-e-n-t-r-e-e-m-c-o-n-t-a-t-o">
-          <span className="landingpagemitzit-text048">
-            <span>ENTRE EM CONTATO</span>
-          </span>
+          <div className="container">
+            <h2>Nossos serviços</h2>
+          </div>
+          <div className="container mitz-flex">
+            <div className="mitz-services-bg-black">
+              <span>Soluções e consultoria</span>
+              <p>
+                Oferecemos serviços de consultoria em arquitetura de software e
+                de soluções. A consultoria comumente é o primeiro passo para
+                enxergar as necessidades técnicas e dimensionar a squad
+                necessária para o trabalho no tempo proposto, o que também
+                realizamos. A consultoria apoia tanto a execução de um
+                determinado produto de software como o setor de TI como um todo,
+                de forma que haja sincronia com os stakeholders.
+              </p>
+              <p>
+                Trabalhamos diretamente com os especialistas no seu negócio para
+                ajudar a identificar oportunidades de transformação e
+                digitalização de processos e até mesmo de criação de novos
+                produtos digitais, dando todo o passo a passo do desenvolvimento
+                para entregar as funcionalidades pedidas através de software.
+              </p>
+              <p>
+                Já havendo uma equipe madura de TI e processos definidos, também
+                atuamos procurando pontos de melhoria e evolução, com
+                treinamento das pessoas chave para utilizarem as novas
+                ferramentas.
+              </p>
+              <div>
+                <AnchorLink href="#contact" style={{ float: `right`}}>ENTRE EM CONTATO</AnchorLink>
+              </div>
+            </div>
+
+            <div className="mitz-services-bg-black">
+              <span>Squads</span>
+              <p>
+                Para apoiar as definições feitas pelo time de arquitetura, a
+                Mitz IT presta suporte na execução das demandas, oferecendo os
+                profissionais mais capacitados para entregar exatamente o que
+                for preciso no âmbito tecnológico.
+              </p>
+              <p>
+                Ajudamos a dimensionar a equipe e oferecemos todas as funções
+                técnicas pertinentes, como desenvolvedores, analistas de QA,
+                SREs, DevOps/DevSecOps, Data Scientists/Engineers, UI/UX,
+                especialistas em segurança, líderes técnicos e arquitetos de
+                software/solução prontos para executar e apoiar sua empresa com
+                conhecimento e expertise técnica. Podemos trabalhar tanto em
+                equipes fechadas como híbridas para ajudar ainda mais o processo
+                e a tecnologia da sua empresa a evoluir.
+              </p>
+              <p>
+                Toda a gestão dos profissionais é feita por nós, com processos e
+                indicadores transparentes de evolução e performance da equipe,
+                adequando-se à processos já existentes na empresa para
+                contribuir sem impacto na cultura existente.
+              </p>
+              <div>
+                <AnchorLink href="#contact" style={{ float: `right`}}>ENTRE EM CONTATO</AnchorLink>
+              </div>
+            </div>
+          </div>
         </div>
-        <span className="landingpagemitzit-text050">
-          <span className="landingpagemitzit-text051">
-            <span>Soluções e consultoria</span>
-            <br></br>
-            <span></span>
-          </span>
-          <span>
-            <span></span>
-            <br></br>
-            <span></span>
-            <br></br>
-            <span>
-              Oferecemos serviços de consultoria em arquitetura de software e
-              de soluções. A consultoria comumente é o primeiro passo para
-              enxergar as necessidades técnicas e dimensionar a squad
-              necessária para o trabalho no tempo proposto, o que também
-              realizamos. A consultoria apoia tanto a execução de um
-              determinado produto de software como o setor de TI como um todo,
-              de forma que haja sincronia com os stakeholders.
-            </span>
-            <br></br>
-            <span></span>
-            <br></br>
-            <span>
-              Trabalhamos diretamente com os especialistas no seu negócio para
-              ajudar a identificar oportunidades de transformação e
-              digitalização de processos e até mesmo de criação de novos
-              produtos digitais, dando todo o passo a passo do desenvolvimento
-              para entregar as funcionalidades pedidas através de software.
-            </span>
-            <br></br>
-            <span>
-              Já havendo uma equipe madura de TI e processos definidos, também
-              atuamos procurando pontos de melhoria e evolução, com
-              treinamento das pessoas chave para utilizarem as novas
-              ferramentas.
-            </span>
-          </span>
-        </span>
-        <img
-          alt="Rectangle21551"
-          src="/playground_assets/rectangle21551-ijjs-700h.png"
-          className="landingpagemitzit-rectangle2"
-        />
-        <div className="landingpagemitzit-e-n-t-r-e-e-m-c-o-n-t-a-t-o1">
-          <span className="landingpagemitzit-text067">
-            <span>ENTRE EM CONTATO</span>
-          </span>
-        </div>
-        <span className="landingpagemitzit-text069">
-          <span className="landingpagemitzit-text070">
-            <span>Squads</span>
-            <br></br>
-            <span></span>
-          </span>
-          <span>
-            <span></span>
-            <br></br>
-            <span></span>
-            <br></br>
-            <span>
-              Para apoiar as definições feitas pelo time de arquitetura, a
-              Mitz IT presta suporte na execução das demandas, oferecendo os
-              profissionais mais capacitados para entregar exatamente o que
-              for preciso no âmbito tecnológico.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
+
+        <div className="mitz-team" id="team">
+          <div className="container">
+            <h2>Time</h2>
+          </div>
+          <div className="container">
+
+            <div className="mitz-flex flex-team">
+              <img
+                alt="Rectangle122314"
+                src="/playground_assets/rectangle122314-b1go-500h.png"
+                className="landingpagemitzit-rectangle12"
               />
-            </span>
-            <br></br>
-            <span></span>
-            <br></br>
-            <span>
-              Ajudamos a dimensionar a equipe e oferecemos todas as funções
-              técnicas pertinentes, como desenvolvedores, analistas de QA,
-              SREs, DevOps/DevSecOps, Data Scientists/Engineers, UI/UX,
-              especialistas em segurança, líderes técnicos e arquitetos de
-              software/solução prontos para executar e apoiar sua empresa com
-              conhecimento e expertise técnica. Podemos trabalhar tanto em
-              equipes fechadas como híbridas para ajudar ainda mais o processo
-              e a tecnologia da sua empresa a evoluir.
-            </span>
-            <br></br>
-            <span></span>
-            <br></br>
-            <span>
-              Toda a gestão dos profissionais é feita por nós, com processos e
-              indicadores transparentes de evolução e performance da equipe,
-              adequando-se à processos já existentes na empresa para
-              contribuir sem impacto na cultura existente.
-            </span>
-          </span>
-        </span>
-        <div className="landingpagemitzit-scroll">
-          <span className="landingpagemitzit-text088">
-            <span>01</span>
-          </span>
-          <span className="landingpagemitzit-text090">
-            <span>02</span>
-          </span>
-          <span className="landingpagemitzit-text092">
-            <span>03</span>
-          </span>
+              <div className="flex-text">
+                <p>
+                  <b>
+                    Marcelo - Fundador da Mitz IT, Tech Lead, Arquiteto de
+                    Software/Soluções e Gerente de Equipes
+                  </b>
+                </p>
+                <p>
+                  Com experiência de mais de 16 anos na área de desenvolvimento de
+                  soluções via software e 8 anos como tech lead e coordenador de
+                  equipes, já trabalhou em mais de 50 projetos de software para a
+                  industria e workforce, atuando em clientes de todos os portes a
+                  nível nacional e internacional.
+                </p>
+                <p>
+                  Formado em engenharia e com especialização em Qualidade de
+                  Software e Processos, sempre traz as boas práticas de
+                  ferramentas, de processo e de arquitetura, exatamente como
+                  demanda a área de TI e a excelência que impõe nos projetos em
+                  que trabalha. Atua em todas as fases do projeto, desde o
+                  desenvolvimento até a entrega final, relacionando-se com o board
+                  da empresa a fim de garantir a sincronia dos dois mundos.
+                </p>
+              </div>
+            </div>
+
+            <div className="mitz-flex flex-team">
+              <div className="flex-text">
+                <p>
+                  <b>
+                    Juliana - Sócia da Mitz IT, Advogada e Responsável pela parte
+                    Jurídica
+                  </b>
+                </p>
+                <p>
+                  Advogada, é responsável pela análise dos contratos dos clientes
+                  quanto e dos prestadores de serviço a fim de garantir uma
+                  relação saudável entre todas as partes, mitigando riscos para
+                  todos. Juliana possui experiência de mais de 10 anos no setor
+                  jurídico visando a empresa, mas nunca deixando de ter olhar
+                  sobre o prestador.
+                </p>
+              </div>
+              <img
+                alt="Rectangle122314"
+                src="/playground_assets/rectangle122314-b1go-500h.png"
+                className="landingpagemitzit-rectangle12"
+              />
+            </div>
+
+          </div>
         </div>
-      </div>
+        <span
+          alt="mitz-pattern"
+          className="mitz-pattern"
+        />
+        <div className="mitz-contact" id="contact">
+          <div className="container">
+            <h2>Entre em contato</h2>
+          </div>
+          <div>
+
+          </div>
         </div>
 
       </section>
