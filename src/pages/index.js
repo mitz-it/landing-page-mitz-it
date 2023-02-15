@@ -60,7 +60,7 @@ const HomePage = (props) => {
           <div className="container">
             <h2>Sobre nós</h2>
             <span className="mitz-about-subtitle">
-              software focado 100% no que o cliente realmente necessita.
+              Software focado 100% no que o cliente realmente necessita.
             </span>
             <span className="mitz-about-text">
               <p>
