@@ -2,6 +2,7 @@
 .container {
   width: 80%;
   margin: auto;
+  max-width: 1600px;
 }
 
 .mitz-flex {
@@ -17,8 +18,8 @@
 
 .mitz-wrapper-logo {
   top: 0px;
-  left: 140px;
-  width: 59px;
+  left: 102px;
+  width: 58px;
   height: 94px;
   display: flex;
   position: fixed;
@@ -28,21 +29,22 @@
   z-index: 1;
   background-color: black;
 }
+
 /*body*/
 
 /*header*/
 .mitz-background-gradient {
-    background: url(/imgs/gradiente.png);
-    display: table;
-    width: 100%;
-    height: 930px;
-    background-size: 110% 930px;
+  background: url(/imgs/gradiente.png);
+  display: table;
+  width: 100%;
+  height: 930px;
+  background-size: 110% 930px;
 }
 
 .mitz-flex-header {
   display: flex;
   float: right;
-  width: 50%;
+  width: 40%;
   justify-content: space-between;
   height: 90px;
   align-items: center;
@@ -53,15 +55,22 @@
   position: relative;
 }
 
-.mitz-title-header h5{
+.mitz-title-header h5 {
   color: #C4BEB8;
   font-weight: 300;
   font-size: 20px;
   line-height: 30px;
 }
 
-.mitz-contact h2{
+.mitz-contact h2 {
   color: black
+}
+
+.mitz-logo-banner {
+  position: relative;
+  bottom: -486px;
+  width: 100%;
+  max-width: 1080px;
 }
 
 /*header*/
@@ -70,11 +79,11 @@
 .mitz-about {
   background: black;
   display: flex;
-  color:#C4BEB8;
+  color: #C4BEB8;
   padding: 184px 0px;
 }
 
-.mitz-about h2{
+.mitz-about h2 {
   font-family: 'Archia';
   font-style: normal;
   font-weight: 500;
@@ -98,7 +107,7 @@ span.mitz-about-subtitle {
   text-align: justify;
 }
 
-.mitz-about-text p{
+.mitz-about-text p {
   font-family: 'Archia';
   font-style: normal;
   font-weight: 300;
@@ -110,7 +119,7 @@ span.mitz-about-subtitle {
 
 .mitz-about-values {
   padding: 184px 0px;
-  color:black;
+  color: black;
 }
 
 .mitz-about-values-flex {
@@ -123,26 +132,33 @@ span.mitz-about-values-text {
 }
 
 span.mitz-about-values-text h2,
-span.mitz-about-values-text p{
+span.mitz-about-values-text p {
   color: black;
 }
 
-span.mitz-about-values-text h2{
+span.mitz-about-values-text h2 {
   font-family: 'Archia';
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
   line-height: 48px;
   text-align: justify;
+  position: relative;
+  margin-top: -10px;
 }
 
-span.mitz-about-values-text p{
+span.mitz-about-values-text p {
   font-family: 'Archia';
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 140%;
   text-align: justify;
+}
+
+.mitz-about-img img {
+  max-width: 728px;
+  width: 100%;
 }
 /*about*/
 
@@ -171,17 +187,24 @@ span.mitz-about-values-text p{
 .mitz-services p, .mitz-services a {
   font-family: 'Archia';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
-  line-height: 29px;
+  line-height: 21px;
   text-align: justify;
   color: #C4BEB8;
 }
+
+.mitz-services-bg-black span {
+  font-size: 22px;
+  top: -15px;
+  position: relative;
+}
+
 /*services*/
 
 /*team*/
-.mitz-team{
-  background-color: black; 
+.mitz-team {
+  background-color: black;
   padding: 100px 0 200px;
 }
 
@@ -195,7 +218,7 @@ span.mitz-about-values-text p{
   color: #C4BEB8;
 }
 
-.mitz-team h2{
+.mitz-team h2 {
   font-family: 'Archia';
   font-style: normal;
   font-weight: 500;
@@ -206,8 +229,8 @@ span.mitz-about-values-text p{
 }
 
 .flex-team {
-  gap: 20vh;
-  margin-bottom: 120px;
+  gap: 75px;
+  margin-bottom: 75px;
 }
 
 .flex-text {
@@ -215,24 +238,26 @@ span.mitz-about-values-text p{
   flex-direction: column;
   justify-content: flex-end;
 }
+
 /*team*/
 
 /*pattern*/
-.mitz-pattern{
-  background-image: url(/playground_assets/pattern1551-zw5b-1100h.png);
+.mitz-pattern {
+  background-image: url(https://vinialexandre.github.io/landing-page-mitz-it/playground_assets/pattern1551-zw5b-1100h.png);
   width: 100%;
   height: 200px;
   display: table;
 }
+
 /*pattern*/
 
 /*contact*/
-.mitz-contact{
-  background-color: transparent; 
+.mitz-contact {
+  background-color: transparent;
   padding: 100px 0 200px;
 }
 
-.mitz-contact h2{
+.mitz-contact h2 {
   font-family: 'Archia';
   font-style: normal;
   font-weight: 500;
@@ -241,6 +266,81 @@ span.mitz-about-values-text p{
   letter-spacing: 0.05em;
   color: black;
 }
+
+form.mitz-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  row-gap: 25px;
+  margin-top: 50px;
+}
+
+.mitz-input,
+.mitz-textarea {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  font-family: 'Archia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 147%;
+  color: #000000;
+}
+
+.mitz-row-2-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mitz-column {
+  width: 48%;
+}
+
+.mitz-msg-error {
+  color: #c34848;
+  height: 20px;
+  font-size: 13px;
+  margin-left: 3px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+button.mitz-button {
+  border: 1px solid #000000;
+  background: transparent;
+  color: black;
+  width: 106px;
+  height: 33.36px;
+  font-size: 16px;
+  float: right;
+
+}
+
+button.mitz-button:hover {
+  background: black;
+  color: #C4BEB8;
+  width: 106px;
+  height: 33.36px;
+  font-size: 16px;
+}
+
+textarea.mitz-textarea {
+  height: 142.99px;
+}
+
+.mitz-progress-bar {
+  background: #C4BEB8 !important;
+}
+
+.mitz-toast {
+  width: 506px;
+  left: -188px;
+  line-height: 51px;
+  border-radius: 0px !important;
+}
+
 /*contact*/
 
 /*footer*/
@@ -255,10 +355,12 @@ span.mitz-about-values-text p{
 span.mitz-midia {
   width: 410px;
 }
+
 footer.mitz-footer {
   background: black;
   display: flex;
   height: 205px;
   font-weight: 250;
 }
+
 /*footer*/

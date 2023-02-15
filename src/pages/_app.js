@@ -5,6 +5,10 @@ import '../style/landingpagemitzit.css'
 import '../style/scrool-styles.css'
 import '../style/notfound.css'
 
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
+
+
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -16,6 +20,18 @@ function MyApp({ Component, pageProps }) {
         <link rel="shortcut icon" href="./favicon_io/favicon.ico" />
       </Helmet>
       <Component {...pageProps} />
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="dark"
+        />
     </>
     )
 }

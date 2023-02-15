@@ -1,18 +1,11 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import ContactForm from '../components/form'
+import Logo from '../components/logo'
 
 const HomePage = (props) => {
   return (
     <main>
-      <AnchorLink href="#header">
-        <div className="mitz-wrapper-logo">
-
-          <img
-            alt="Mitz IT logo"
-            src="/playground_assets/m1i155-uiyf-200h.png"
-            className="mitz-logo"
-          />
-        </div>
-      </AnchorLink>
+      <Logo />
       <header className="mitz-background-gradient" id="header">
         <div className="container ">
           <span className="mitz-flex-header">
@@ -32,6 +25,12 @@ const HomePage = (props) => {
               Prezando pelo simples e efetivo.
             </h5>
           </span>
+
+          <img
+            src="https://vinialexandre.github.io/landing-page-mitz-it/playground_assets/mitzitbege1551-i6dc-300h.png"
+            alt="Logo Mitz IT"
+            className="mitz-logo-banner"
+          />
         </div>
 
       </header>
@@ -80,7 +79,7 @@ const HomePage = (props) => {
             <span className="mitz-about-img">
               <img
                 alt="Mitz IT"
-                src="/playground_assets/img1551-oy8f-400h.png"
+                src="https://vinialexandre.github.io/landing-page-mitz-it/playground_assets/img1551-oy8f-400h.png"
               />
             </span>
             <span className="mitz-about-values-text">
@@ -178,7 +177,7 @@ const HomePage = (props) => {
             <div className="mitz-flex flex-team">
               <img
                 alt="Rectangle122314"
-                src="/playground_assets/rectangle122314-b1go-500h.png"
+                src="https://vinialexandre.github.io/landing-page-mitz-it/playground_assets/rectangle122314-b1go-500h.png"
                 className="landingpagemitzit-rectangle12"
               />
               <div className="flex-text">
@@ -226,7 +225,7 @@ const HomePage = (props) => {
               </div>
               <img
                 alt="Rectangle122314"
-                src="/playground_assets/rectangle122314-b1go-500h.png"
+                src="https://vinialexandre.github.io/landing-page-mitz-it/playground_assets/rectangle122314-b1go-500h.png"
                 className="landingpagemitzit-rectangle12"
               />
             </div>
@@ -241,8 +240,8 @@ const HomePage = (props) => {
           <div className="container">
             <h2>Entre em contato</h2>
           </div>
-          <div>
-
+          <div className="container mitz-flex">
+            <ContactForm />
           </div>
         </div>
 
@@ -252,19 +251,19 @@ const HomePage = (props) => {
         <div className="container mitz-flex ">
           <span className="mitz-midia mitz-flex ">
             <span className="mitz-inta">
-              <AnchorLink href="#header">Instagram</AnchorLink>
-            </span>
-            <span className="mitz-email">
-              <AnchorLink href="#header">email@email.com</AnchorLink>
+              <a href="https://www.instagram.com/mitz__it/" target="_blank">Instagram</a>
             </span>
             <span className="mitz-linkedin">
-              <AnchorLink href="#header">Linkedin</AnchorLink>
+              <a href="https://www.linkedin.com/company/mitz-it/" target="_blank">Linkedin</a>
+            </span>
+            <span className="mitz-email">
+              <a href="#contact">contato@mitz.com</a>
             </span>
           </span>
           <AnchorLink href="#header">
             <img
               alt="Mitz IT logo"
-              src="/playground_assets/mitzitbege1551-ij3l-200h.png"
+              src="https://vinialexandre.github.io/landing-page-mitz-it/playground_assets/mitzitbege1551-ij3l-200h.png"
               className="mitz-logo-footer"
             />
           </AnchorLink>
