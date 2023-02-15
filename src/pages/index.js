@@ -226,7 +226,7 @@ const HomePage = (props) => {
               </div>
             </div>
 
-            <div className="mitz-flex flex-team">
+            <div className="mitz-flex flex-team mitz-team-child2">
               <div className="flex-text">
                 <p>
                   <b>

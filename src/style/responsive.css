@@ -85,6 +85,10 @@
         font-size: 20px;
         line-height: 30px;
     }
+
+    .mitz-flex.flex-team.mitz-team-child2 {
+        flex-direction: column-reverse;
+    }
 }
 
 @media screen and (max-width: 500px) {
