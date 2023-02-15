@@ -1,1103 +1,264 @@
-.landingpagemitzit-container {
-  min-height: 100vh;
+/*body*/
+.container {
+  width: 80%;
+  margin: auto;
 }
-.landingpagemitzit-landingpagemitzit {
+
+.mitz-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mitz-container {
+  background: #C4BEB8;
   width: 100%;
-  height: 6726px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-  background-color: rgba(196, 190, 184, 1);
-}
-.landingpagemitzit-banner {
-  top: 0px;
-  left: 0px;
-  width: 1920px;
-  height: 1080px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-}
-.landingpagemitzit-img {
-  top: 0px;
-  left: 0px;
-  width: 1920px;
-  height: 1080px;
-  position: absolute;
-  border-color: transparent;
-}
-.landingpagemitzit-roll {
-  top: 877px;
-  left: 1674px;
-  width: 21px;
-  height: 82px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  border-radius: 0px 0px 0px 0px;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-}
-.landingpagemitzit-text {
-  top: 64px;
-  color: rgba(196, 190, 184, 0.30000001192092896);
-  width: 21px;
   height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Light;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 300;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
 }
-.landingpagemitzit-text002 {
-  top: 32px;
-  left: 1px;
-  color: rgba(196, 190, 184, 0.30000001192092896);
-  width: 20px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Light;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 300;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-text004 {
-  left: 1px;
-  color: rgba(196, 190, 184, 1);
-  width: 20px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Light;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 300;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: underline;
-}
-.landingpagemitzit-mitzitbege {
-  top: 875px;
-  left: 225px;
-  width: 1004px;
-  height: 205px;
-  position: absolute;
-  border-color: transparent;
-}
-.landingpagemitzit-textbanner {
-  top: 391px;
-  left: 225px;
-  width: 543px;
-  height: 204px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  border-radius: 0px 0px 0px 0px;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-}
-.landingpagemitzit-text006 {
-  top: 145px;
-  color: rgba(196, 190, 184, 1);
-  width: 419px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  align-self: auto;
-  font-style: Light;
-  text-align: left;
-  font-family: Archia;
-  font-weight: 300;
-  line-height: 30px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-text008 {
-  color: rgba(196, 190, 184, 1);
-  width: 543px;
-  height: auto;
-  position: absolute;
-  font-size: 36px;
-  align-self: auto;
-  font-style: SemiBold;
-  text-align: left;
-  font-family: Archia;
-  font-weight: 600;
-  line-height: 54px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-line2 {
-  top: 51px;
-  left: 2px;
-  width: 397px;
-  height: 0px;
-  position: absolute;
-}
-.landingpagemitzit-line3 {
-  top: 105.5px;
-  left: 1.99951171875px;
-  width: 530px;
-  height: 0px;
-  position: absolute;
-}
-.landingpagemitzit-menu {
-  top: 68px;
-  left: 1187px;
-  width: 508px;
-  height: 24px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  border-radius: 0px 0px 0px 0px;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-}
-.landingpagemitzit-sobre {
-  top: 0px;
-  left: 0px;
-  width: 45px;
-  height: 24px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-}
-.landingpagemitzit-text013 {
-  color: rgba(196, 190, 184, 1);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Regular;
-  text-align: left;
-  font-family: Archia;
-  font-weight: 400;
-  line-height: 147.00000286102295%;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-decoration: none;
-}
-.landingpagemitzit-servios {
-  top: 0px;
-  left: 105px;
-  width: 128px;
-  height: 24px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-}
-.landingpagemitzit-text015 {
-  color: rgba(196, 190, 184, 1);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Regular;
-  text-align: left;
-  font-family: Archia;
-  font-weight: 400;
-  line-height: 147.00000286102295%;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-decoration: none;
-}
-.landingpagemitzit-nossotime {
-  top: 0px;
-  left: 293px;
-  width: 90px;
-  height: 24px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-}
-.landingpagemitzit-text017 {
-  color: rgba(196, 190, 184, 1);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Regular;
-  text-align: left;
-  font-family: Archia;
-  font-weight: 400;
-  line-height: 147.00000286102295%;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-decoration: none;
-}
-.landingpagemitzit-contato {
-  top: 0px;
-  left: 443px;
-  width: 65px;
-  height: 24px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-}
-.landingpagemitzit-text019 {
-  color: rgba(196, 190, 184, 1);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Regular;
-  text-align: left;
-  font-family: Archia;
-  font-weight: 400;
-  line-height: 147.00000286102295%;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-decoration: none;
-}
-.landingpagemitzit-sobrenos {
-  top: 1080px;
-  left: 0px;
-  width: 1920px;
-  height: 860px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: rgba(0, 0, 0, 1);
-}
-.landingpagemitzit-text021 {
-  top: 184px;
-  left: 227px;
-  color: rgba(196, 190, 184, 1);
-  width: 196px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  align-self: auto;
-  font-style: Medium;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-text023 {
-  top: 289px;
-  left: 229px;
-  color: rgba(196, 190, 184, 1);
-  width: 576px;
-  height: auto;
-  position: absolute;
-  font-size: 18px;
-  align-self: auto;
-  font-style: Medium;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 500;
-  line-height: 125%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-text028 {
-  top: 406px;
-  left: 390px;
-  color: rgba(196, 190, 184, 1);
-  width: 1304px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Light;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 300;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-nossosprincipios {
-  top: 1940px;
-  left: 0px;
-  width: 1920px;
-  height: 745px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: rgba(196, 190, 184, 1);
-}
-.landingpagemitzit-img1 {
-  top: 193px;
-  left: 225px;
-  width: 735px;
-  height: 359px;
-  position: absolute;
-  border-color: transparent;
-}
-.landingpagemitzit-text039 {
-  top: 193px;
-  left: 1104px;
-  color: rgba(0, 0, 0, 1);
-  width: 366px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  align-self: auto;
-  font-style: Medium;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-text041 {
-  top: 288px;
-  left: 1104px;
-  color: rgba(0, 0, 0, 1);
-  width: 591px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Light;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 300;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-nossosservios {
-  top: 2685px;
-  left: 0px;
-  width: 1920px;
-  height: 1160px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: rgba(217, 217, 217, 1);
-}
-.landingpagemitzit-text046 {
-  top: 175.5302734375px;
-  left: 225px;
-  color: rgba(0, 0, 0, 1);
-  width: 322px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  align-self: auto;
-  font-style: Medium;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-rectangle1 {
-  top: 285px;
-  left: 225px;
-  width: 683px;
-  height: 682px;
-  position: absolute;
-  border-color: transparent;
-}
-.landingpagemitzit-e-n-t-r-e-e-m-c-o-n-t-a-t-o {
-  top: 868.13037109375px;
-  left: 683px;
-  width: 141px;
-  height: 17.141403198242188px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-}
-.landingpagemitzit-text048 {
-  color: rgba(196, 190, 184, 1);
-  width: 139px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  align-self: auto;
-  font-style: SemiBold;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 600;
-  line-height: normal;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-decoration: underline;
-}
-.landingpagemitzit-text050 {
-  top: 374px;
-  left: 317px;
-  color: rgba(196, 190, 184, 1);
-  width: 499px;
-  height: auto;
-  position: absolute;
-  font-size: 24px;
-  align-self: auto;
-  font-style: Regular;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-text051 {
-  font-weight: 400;
-}
-.landingpagemitzit-rectangle2 {
-  top: 285px;
-  left: 1012px;
-  width: 683px;
-  height: 682px;
-  position: absolute;
-  border-color: transparent;
-}
-.landingpagemitzit-e-n-t-r-e-e-m-c-o-n-t-a-t-o1 {
-  top: 836.13037109375px;
-  left: 1469px;
-  width: 141px;
-  height: 17.141403198242188px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-}
-.landingpagemitzit-text067 {
-  top: 32px;
-  color: rgba(196, 190, 184, 1);
-  width: 139px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  align-self: auto;
-  font-style: SemiBold;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 600;
-  line-height: normal;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-decoration: underline;
-}
-.landingpagemitzit-text069 {
-  top: 374px;
-  left: 1104px;
-  color: rgba(196, 190, 184, 1);
-  width: 499px;
-  height: auto;
-  position: absolute;
-  font-size: 24px;
-  align-self: auto;
-  font-style: Regular;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 400;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-text070 {
-  font-weight: 400;
-}
-.landingpagemitzit-scroll {
-  top: 989.1533203125px;
-  left: 1608px;
-  width: 87px;
-  height: 22.182994842529297px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  border-radius: 0px 0px 0px 0px;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: transparent;
-}
-.landingpagemitzit-text088 {
-  color: rgba(0, 0, 0, 1);
-  width: 19px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Light;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 300;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: underline;
-}
-.landingpagemitzit-text090 {
-  left: 33px;
-  color: rgba(0, 0, 0, 0.30000001192092896);
-  width: 20px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Light;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 300;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-text092 {
-  left: 67px;
-  color: rgba(0, 0, 0, 0.30000001192092896);
-  width: 20px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Light;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 300;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-pattern {
-  top: 5368px;
-  left: 0px;
-  width: 1920px;
-  height: 1029px;
-  position: absolute;
-  border-color: transparent;
-}
-.landingpagemitzit-marceloejuliana {
-  top: 3845px;
-  left: 0px;
-  width: 1920px;
-  height: 1545px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: rgba(0, 0, 0, 1);
-}
-.landingpagemitzit-rectangle11 {
-  top: 306px;
-  left: 222px;
-  width: 281px;
-  height: 431px;
-  position: absolute;
-  border-color: rgba(196, 190, 184, 1);
-  border-style: solid;
-  border-width: 2px;
-}
-.landingpagemitzit-rectangle12 {
-  top: 907px;
-  left: 1414px;
-  width: 281px;
-  height: 431px;
-  position: absolute;
-  border-color: rgba(196, 190, 184, 1);
-  border-style: solid;
-  border-width: 2px;
-}
-.landingpagemitzit-text094 {
-  top: 476px;
-  left: 575px;
-  color: rgba(255, 255, 255, 1);
-  width: 1120px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  align-self: auto;
-  font-style: Medium;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 500;
-  line-height: 147.00000286102295%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-text095 {
-  font-weight: 500;
-}
-.landingpagemitzit-text107 {
-  top: 1205px;
-  left: 222px;
-  color: rgba(255, 255, 255, 1);
-  width: 1117px;
-  height: auto;
-  position: absolute;
-  font-size: 20px;
-  align-self: auto;
-  font-style: Medium;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 500;
-  line-height: 147.00000286102295%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-text108 {
-  font-weight: 500;
-}
-.landingpagemitzit-text116 {
-  top: 167.736083984375px;
-  left: 225px;
-  color: rgba(196, 190, 184, 1);
-  width: 322px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  align-self: auto;
-  font-style: Medium;
-  text-align: left;
-  font-family: Archia;
-  font-weight: 500;
-  line-height: 188.49999904632568%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-entreemcontato2 {
-  top: 5551px;
-  left: 0px;
-  width: 1920px;
-  height: 981px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: rgba(196, 190, 184, 1);
-}
-.landingpagemitzit-text118 {
-  top: 179.60208129882812px;
-  left: 225px;
-  color: rgba(0, 0, 0, 1);
-  width: 347px;
-  height: auto;
-  position: absolute;
-  font-size: 40px;
-  align-self: auto;
-  font-style: Medium;
-  text-align: left;
-  font-family: Archia;
-  font-weight: 500;
-  line-height: 147.00000286102295%;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-nome {
-  top: 400.76043701171875px;
-  left: 225px;
-  width: 644px;
-  height: 25.738636016845703px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-}
-.landingpagemitzit-line13 {
-  top: 25.738636016845703px;
-  left: 0px;
-  width: 644px;
-  height: 0px;
-  position: absolute;
-}
-.landingpagemitzit-text120 {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Regular;
-  text-align: left;
-  font-family: Archia;
-  font-weight: 400;
-  line-height: 147.00000286102295%;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-decoration: none;
-}
-.landingpagemitzit-email {
-  top: 400.76043701171875px;
-  left: 1051px;
-  width: 644px;
-  height: 25.738636016845703px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-}
-.landingpagemitzit-line131 {
-  top: 25.738636016845703px;
-  left: 0px;
-  width: 644px;
-  height: 0px;
-  position: absolute;
-}
-.landingpagemitzit-text122 {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Regular;
-  text-align: left;
-  font-family: Archia;
-  font-weight: 400;
-  line-height: 147.00000286102295%;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-decoration: none;
-}
-.landingpagemitzit-assunto {
-  top: 478.94635009765625px;
-  left: 225px;
-  width: 1470px;
-  height: 25.738636016845703px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-}
-.landingpagemitzit-line132 {
-  top: 25.738636016845703px;
-  left: 0px;
-  width: 1470px;
-  height: 0px;
-  position: absolute;
-}
-.landingpagemitzit-text124 {
-  color: rgba(0, 0, 0, 1);
-  width: 254px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Regular;
-  text-align: left;
-  font-family: Archia;
-  font-weight: 400;
-  line-height: 147.00000286102295%;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-decoration: none;
-}
-.landingpagemitzit-mensagem {
-  top: 557.1273803710938px;
-  left: 225px;
-  width: 1470px;
-  height: 142.99253845214844px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: transparent;
-}
-.landingpagemitzit-line133 {
-  top: 142.99253845214844px;
-  left: 0px;
-  width: 1470px;
-  height: 0px;
-  position: absolute;
-}
-.landingpagemitzit-text126 {
-  color: rgba(0, 0, 0, 1);
-  width: 1470px;
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Regular;
-  text-align: left;
-  font-family: Archia;
-  font-weight: 400;
-  line-height: 147.00000286102295%;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-decoration: none;
-}
-.landingpagemitzit-enviar {
-  top: 752.54443359375px;
-  left: 1589px;
-  width: 106px;
-  height: 33.364967346191406px;
-  display: flex;
-  position: absolute;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: rgba(0, 0, 0, 1);
-  border-style: solid;
-  border-width: 1px;
-}
-.landingpagemitzit-text128 {
-  top: 5.7197089195251465px;
-  left: 28px;
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  position: absolute;
-  font-size: 16px;
-  align-self: auto;
-  font-style: Regular;
-  text-align: left;
-  font-family: Archia;
-  font-weight: 400;
-  line-height: 147.00000286102295%;
-  font-stretch: normal;
-  margin-right: 0;
-  margin-bottom: 0;
-  text-decoration: none;
-}
-.landingpagemitzit-rectangle9 {
-  top: 0px;
-  left: 0px;
-  width: 106px;
-  height: 33px;
-  position: absolute;
-  border-color: rgba(0, 0, 0, 1);
-  border-style: solid;
-  border-width: 1px;
-}
-.landingpagemitzit-rodape {
-  top: 6521px;
-  left: 0px;
-  width: 1920px;
-  height: 205px;
-  display: flex;
-  padding: 0;
-  position: absolute;
-  align-self: auto;
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-shrink: 1;
-  border-color: transparent;
-  border-style: none;
-  border-width: 0;
-  margin-right: 0;
-  border-radius: 0px 0px 0px 0px;
-  margin-bottom: 0;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: rgba(0, 0, 0, 1);
-}
-.landingpagemitzit-text130 {
-  top: 94.0461196899414px;
-  left: 224px;
-  color: rgba(196, 190, 184, 1);
-  width: 77px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  align-self: auto;
-  font-style: Thin;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 100;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-text132 {
-  top: 94.0461196899414px;
-  left: 497px;
-  color: rgba(196, 190, 184, 1);
-  width: 134px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  align-self: auto;
-  font-style: Thin;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 100;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-text134 {
-  top: 94.0461196899414px;
-  left: 369px;
-  color: rgba(196, 190, 184, 1);
-  width: 60px;
-  height: auto;
-  position: absolute;
-  font-size: 14px;
-  align-self: auto;
-  font-style: Thin;
-  text-align: justified;
-  font-family: Archia;
-  font-weight: 100;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
-}
-.landingpagemitzit-mitzitbege1 {
-  top: 92.98975372314453px;
-  left: 1603px;
-  width: 91px;
-  height: 19px;
-  position: absolute;
-  border-color: transparent;
-}
-.landingpagemitzit-home-m {
+
+.mitz-wrapper-logo {
   top: 0px;
   left: 140px;
   width: 59px;
   height: 94px;
   display: flex;
-  position: absolute;
+  position: fixed;
   align-items: flex-start;
   flex-shrink: 0;
   border-color: transparent;
+  z-index: 1;
+  background-color: black;
 }
-.landingpagemitzit-rectangle11 {
-  top: 0px;
-  left: 0px;
-  width: 59px;
-  height: 94px;
-  position: absolute;
-  border-color: transparent;
+/*body*/
+
+/*header*/
+.mitz-background-gradient {
+    background: url(/imgs/gradiente.png);
+    display: table;
+    width: 100%;
+    height: 930px;
+    background-size: 110% 930px;
 }
-.landingpagemitzit-m1 {
-  top: 51px;
-  left: 7.954345703125px;
-  width: 43px;
-  height: 34px;
-  position: absolute;
-  border-color: transparent;
+
+.mitz-flex-header {
+  display: flex;
+  float: right;
+  width: 50%;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
 }
+
+.mitz-title-header {
+  top: 260px;
+  position: relative;
+}
+
+.mitz-title-header h5{
+  color: #C4BEB8;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.mitz-contact h2{
+  color: black
+}
+
+/*header*/
+
+/*about*/
+.mitz-about {
+  background: black;
+  display: flex;
+  color:#C4BEB8;
+  padding: 184px 0px;
+}
+
+.mitz-about h2{
+  font-family: 'Archia';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+span.mitz-about-text {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  float: right;
+}
+
+span.mitz-about-subtitle {
+  font-family: 'Archia';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125%;
+  text-align: justify;
+}
+
+.mitz-about-text p{
+  font-family: 'Archia';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: justify;
+  color: #aba6a1;
+}
+
+.mitz-about-values {
+  padding: 184px 0px;
+  color:black;
+}
+
+.mitz-about-values-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+span.mitz-about-values-text {
+  width: 45%;
+}
+
+span.mitz-about-values-text h2,
+span.mitz-about-values-text p{
+  color: black;
+}
+
+span.mitz-about-values-text h2{
+  font-family: 'Archia';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: justify;
+}
+
+span.mitz-about-values-text p{
+  font-family: 'Archia';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: justify;
+}
+/*about*/
+
+/*services*/
+.mitz-services {
+  background-color: #D9D9D9;
+  padding: 100px 0 200px;
+}
+
+.mitz-services-bg-black {
+  background: black;
+  padding: 5%;
+  width: 36%;
+  text-align: justify;
+}
+
+.mitz-services h2 {
+  color: black;
+  font-family: 'Archia';
+  font-style: normal;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: justify;
+}
+
+.mitz-services p, .mitz-services a {
+  font-family: 'Archia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 29px;
+  text-align: justify;
+  color: #C4BEB8;
+}
+/*services*/
+
+/*team*/
+.mitz-team{
+  background-color: black; 
+  padding: 100px 0 200px;
+}
+
+.mitz-team p {
+  font-family: 'Archia';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 147%;
+  text-align: justify;
+  color: #C4BEB8;
+}
+
+.mitz-team h2{
+  font-family: 'Archia';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 188.5%;
+  letter-spacing: 0.05em;
+  color: #C4BEB8;
+}
+
+.flex-team {
+  gap: 20vh;
+  margin-bottom: 120px;
+}
+
+.flex-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+/*team*/
+
+/*pattern*/
+.mitz-pattern{
+  background-image: url(/playground_assets/pattern1551-zw5b-1100h.png);
+  width: 100%;
+  height: 200px;
+  display: table;
+}
+/*pattern*/
+
+/*contact*/
+.mitz-contact{
+  background-color: transparent; 
+  padding: 100px 0 200px;
+}
+
+.mitz-contact h2{
+  font-family: 'Archia';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 188.5%;
+  letter-spacing: 0.05em;
+  color: black;
+}
+/*contact*/
+
+/*footer*/
+.mitz-logo {
+  width: 74%;
+  height: auto;
+  top: 21px;
+  position: relative;
+  margin: auto;
+}
+
+span.mitz-midia {
+  width: 410px;
+}
+footer.mitz-footer {
+  background: black;
+  display: flex;
+  height: 205px;
+  font-weight: 250;
+}
+/*footer*/

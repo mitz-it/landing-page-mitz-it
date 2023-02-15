@@ -1,0 +1,13 @@
+.mitz-notfound {
+    background: black;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 33px;
+}
+.mitz-notfound h3 {
+    margin: 0;
+}
