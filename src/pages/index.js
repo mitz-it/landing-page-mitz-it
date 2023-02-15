@@ -1,6 +1,8 @@
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import ContactForm from '../components/form'
 import Logo from '../components/logo'
+import { Menu, MenuItem, MenuButton } from '@szhsin/react-menu';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 const HomePage = (props) => {
   return (
@@ -13,6 +15,24 @@ const HomePage = (props) => {
             <AnchorLink href="#services">nossos serviços</AnchorLink>
             <AnchorLink href="#team">nosso time</AnchorLink>
             <AnchorLink href="#contact">contato</AnchorLink>
+          </span>
+          <span className="mitz-flex-header-mobile">
+            <Menu
+              className="menu-mobile"
+              key="menu-mobile"
+              direction="bottom"
+              align="end"
+              position="initial"
+              viewScroll="close"
+              arrow={false}
+              offsetX={0}
+              offsetY={0}
+              menuButton={<MenuButton className="menu-btn-mobile"><AiOutlineMenu /></MenuButton>} transition>
+              <MenuItem><AnchorLink href="#about">sobre</AnchorLink></MenuItem>
+              <MenuItem><AnchorLink href="#services">nossos serviços</AnchorLink></MenuItem>
+              <MenuItem><AnchorLink href="#team">nosso time</AnchorLink></MenuItem>
+              <MenuItem><AnchorLink href="#contact">contato</AnchorLink></MenuItem>
+            </Menu>
           </span>
 
           <span className="mitz-title-header">
@@ -133,7 +153,7 @@ const HomePage = (props) => {
                 ferramentas.
               </p>
               <div>
-                <AnchorLink href="#contact" style={{ float: `right`}}>ENTRE EM CONTATO</AnchorLink>
+                <AnchorLink href="#contact" style={{ float: `right` }}>ENTRE EM CONTATO</AnchorLink>
               </div>
             </div>
 
@@ -162,7 +182,7 @@ const HomePage = (props) => {
                 contribuir sem impacto na cultura existente.
               </p>
               <div>
-                <AnchorLink href="#contact" style={{ float: `right`}}>ENTRE EM CONTATO</AnchorLink>
+                <AnchorLink href="#contact" style={{ float: `right` }}>ENTRE EM CONTATO</AnchorLink>
               </div>
             </div>
           </div>
@@ -178,7 +198,7 @@ const HomePage = (props) => {
               <img
                 alt="Rectangle122314"
                 src="https://vinialexandre.github.io/landing-page-mitz-it/playground_assets/rectangle122314-b1go-500h.png"
-                className="landingpagemitzit-rectangle12"
+                className="mitz-img-team"
               />
               <div className="flex-text">
                 <p>
@@ -226,7 +246,7 @@ const HomePage = (props) => {
               <img
                 alt="Rectangle122314"
                 src="https://vinialexandre.github.io/landing-page-mitz-it/playground_assets/rectangle122314-b1go-500h.png"
-                className="landingpagemitzit-rectangle12"
+                className="mitz-img-team"
               />
             </div>
 

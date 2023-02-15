@@ -18,8 +18,8 @@
 
 .mitz-wrapper-logo {
   top: 0px;
-  left: 102px;
-  width: 58px;
+  left: 8.1%;
+  width: 57px;
   height: 94px;
   display: flex;
   position: fixed;
@@ -125,10 +125,12 @@ span.mitz-about-subtitle {
 .mitz-about-values-flex {
   display: flex;
   justify-content: space-between;
+  gap: 8vh;
 }
 
+span.mitz-about-values-text,
 span.mitz-about-values-text {
-  width: 45%;
+  width: 100%;
 }
 
 span.mitz-about-values-text h2,

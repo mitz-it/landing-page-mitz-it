@@ -1,0 +1,145 @@
+.menu-btn-mobile {
+    background: transparent;
+    border: 1px solid #c3bdb7;
+    color: #c3bdb7;
+    padding: 10px;
+    font-size: 21px;
+    padding-top: 11px;
+    padding-bottom: 6px;
+}
+
+.szh-menu {
+    background-color: transparent !important;
+    border: 1px solid #c3bdb7 !important;
+    border-radius: 0 !important;
+}
+
+
+.mitz-flex-header-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .mitz-flex-header {
+        width: 60%;
+    }
+
+
+
+}
+
+
+@media screen and (max-width: 900px) {
+    .mitz-flex-header {
+        display: none;
+    }
+
+    .mitz-flex-header-mobile {
+        display: block;
+        float: right;
+    }
+
+    .mitz-about-values-flex {
+        flex-direction: column-reverse;
+    }
+
+    span.mitz-about-text {
+        width: 100%;
+    }
+
+    .mitz-about, .mitz-services, .mitz-team {
+        padding: 44px 0px 84px;
+    }
+
+    .mitz-about-values {
+        padding: 84px 0px;
+    }
+
+    .mitz-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mitz-services-bg-black {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+
+    img.mitz-img-team {
+        max-height: 200px;
+    }
+    
+    footer.mitz-footer{
+        height: auto;
+    }
+    .mitz-footer .mitz-flex {
+        gap: 5vh;
+        padding: 10vh 0;
+    }
+
+    .mitz-title-header h5 {
+        color: #C4BEB8;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mitz-background-gradient {
+        height: 526px;
+        background-size: 110% 526px;
+    }
+
+    .mitz-title-header {
+        top: 200px;
+        position: relative;
+    }
+
+  
+    .mitz-title-header h5 {
+        color: #C4BEB8;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .mitz-logo-banner{
+        display: none;
+    }
+
+    .mitz-contact h2 {
+        font-size: 30px;
+    }
+
+    .mitz-row-2-column {
+        flex-direction: column;
+        gap: 21px;
+    }
+
+    .mitz-column {
+        width: 100%;
+    }
+
+    button.mitz-button, button.mitz-button:hover {
+        width: 100%;
+        height: 48.36px;
+        margin-top: 31px;
+    }
+
+    .mitz-toast {
+        width: 250px;
+        left: 100px;
+        top: 40px;
+        line-height: 30px;
+        border-radius: 0px !important;
+        font-size: 14px;
+    }
+
+    span.mitz-midia {
+        width: 100%;
+    }
+
+}

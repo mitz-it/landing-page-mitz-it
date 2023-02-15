@@ -4,6 +4,9 @@ import '../style/style.css'
 import '../style/landingpagemitzit.css'
 import '../style/scrool-styles.css'
 import '../style/notfound.css'
+import '../style/responsive.css'
+import '@szhsin/react-menu/dist/index.css';
+import '@szhsin/react-menu/dist/transitions/slide.css';
 
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';

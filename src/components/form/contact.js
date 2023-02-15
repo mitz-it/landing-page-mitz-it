@@ -80,7 +80,7 @@ const ContactForm = () => (
 
             toast('📩 E-mail enviado, em breve retornaremos o seu contato.', {
                 position: "top-right",
-                autoClose: 6000,
+                autoClose: 6000000,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: true,
