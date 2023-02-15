@@ -9,6 +9,12 @@ body{
   color: #C4BEB8;
 }
 
+
+*:focus {
+  outline: none;
+}
+
+
 a {
   color: inherit;
   text-decoration: inherit;
