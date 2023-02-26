@@ -184,5 +184,9 @@
     .mitz-title-header h1 {
         white-space: normal;
     }
-
+    .mitz-services-bg-black span {
+        float: left;
+        text-align: left;
+        width: 100%;
+    }
 }
