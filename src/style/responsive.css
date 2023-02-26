@@ -19,13 +19,27 @@
     display: none;
 }
 
+@media screen and (min-height: 1080px) {
+    .mitz-background-gradient {
+        height: 1080px;
+    }
+    .mitz-logo-banner {
+        bottom: -638px;
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    .mitz-logo-banner {
+        bottom: -537px;
+        max-width: 830px;
+    }
+}
+
+
 @media screen and (max-width: 1200px) {
     .mitz-flex-header {
         width: 60%;
     }
-
-
-
 }
 
 
@@ -47,7 +61,9 @@
         width: 100%;
     }
 
-    .mitz-about, .mitz-services, .mitz-team {
+    .mitz-about,
+    .mitz-services,
+    .mitz-team {
         padding: 44px 0px 84px;
     }
 
@@ -62,18 +78,20 @@
     }
 
     .mitz-services-bg-black {
-        width: 90%;
+        width: 100%;
         margin-bottom: 30px;
+        padding-top: 42px;
     }
 
 
     img.mitz-img-team {
-        max-height: 200px;
+        max-height: 310px;
     }
-    
-    footer.mitz-footer{
+
+    footer.mitz-footer {
         height: auto;
     }
+
     .mitz-footer .mitz-flex {
         gap: 5vh;
         padding: 10vh 0;
@@ -89,9 +107,25 @@
     .mitz-flex.flex-team.mitz-team-child2 {
         flex-direction: column-reverse;
     }
+
+    .mitz-about-values-flex span {
+        width: 100%;
+    }
+
+    .mitz-about-values-flex {
+        gap: 2vh;
+    }
+
+    .mitz-logo-banner {
+        position: relative;
+        bottom: -614px;
+        width: 100%;
+        max-width: 439px;
+    }
+
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .mitz-background-gradient {
         height: 526px;
         background-size: 110% 526px;
@@ -102,7 +136,7 @@
         position: relative;
     }
 
-  
+
     .mitz-title-header h5 {
         color: #C4BEB8;
         font-weight: 300;
@@ -110,7 +144,7 @@
         line-height: 30px;
     }
 
-    .mitz-logo-banner{
+    .mitz-logo-banner {
         display: none;
     }
 
@@ -127,7 +161,8 @@
         width: 100%;
     }
 
-    button.mitz-button, button.mitz-button:hover {
+    button.mitz-button,
+    button.mitz-button:hover {
         width: 100%;
         height: 48.36px;
         margin-top: 31px;
@@ -144,6 +179,10 @@
 
     span.mitz-midia {
         width: 100%;
+    }
+
+    .mitz-title-header h1 {
+        white-space: normal;
     }
 
 }

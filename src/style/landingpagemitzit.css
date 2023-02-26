@@ -37,8 +37,9 @@
   background: url(https://vinialexandre.github.io/landing-page-mitz-it/imgs/banner_.png);
   display: table;
   width: 100%;
-  height: 930px;
-  background-size: 110% 930px;
+  height: 929px;
+  background-position: center center;
+  background-size: cover;
 }
 
 .mitz-flex-header {
@@ -71,6 +72,10 @@
   bottom: -486px;
   width: 100%;
   max-width: 1080px;
+}
+
+.mitz-title-header h1 {
+  white-space: nowrap;
 }
 
 /*header*/
@@ -162,6 +167,10 @@ span.mitz-about-values-text p {
   max-width: 728px;
   width: 100%;
 }
+
+.mitz-about-values-flex span {
+  width: 50%;
+}
 /*about*/
 
 /*services*/
@@ -190,14 +199,14 @@ span.mitz-about-values-text p {
   font-family: 'Archia';
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 15px;
+  line-height: 25px;
   text-align: justify;
   color: #C4BEB8;
 }
 
 .mitz-services-bg-black span {
-  font-size: 22px;
+  font-size: 26px;
   top: -15px;
   position: relative;
 }
@@ -251,7 +260,7 @@ img.mitz-img-team {
 .mitz-pattern {
   background-image: url(https://vinialexandre.github.io/landing-page-mitz-it/imgs/pattern.png);
   width: 100%;
-  height: 200px;
+  height: 80px;
   display: table;
 }
 

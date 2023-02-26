@@ -153,7 +153,7 @@ const HomePage = (props) => {
                 ferramentas.
               </p>
               <div>
-                <AnchorLink href="#contact" style={{ float: `right` }}>ENTRE EM CONTATO</AnchorLink>
+                <AnchorLink href="#contact" style={{ float: `right`, marginTop: `27px` }}>ENTRE EM CONTATO</AnchorLink>
               </div>
             </div>
 
@@ -182,7 +182,7 @@ const HomePage = (props) => {
                 contribuir sem impacto na cultura existente.
               </p>
               <div>
-                <AnchorLink href="#contact" style={{ float: `right` }}>ENTRE EM CONTATO</AnchorLink>
+                <AnchorLink href="#contact" style={{ float: `right`, marginTop: `27px` }}>ENTRE EM CONTATO</AnchorLink>
               </div>
             </div>
           </div>
