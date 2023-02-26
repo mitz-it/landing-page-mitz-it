@@ -189,4 +189,7 @@
         text-align: left;
         width: 100%;
     }
+    .mitz-input, .mitz-textarea {
+        width: 92%;
+    }
 }
