@@ -8,7 +8,7 @@ const Logo = (props) => {
             <div className="mitz-wrapper-logo">
             <img
                 alt="Mitz IT logo"
-                src="https://vinialexandre.github.io/landing-page-mitz-it/playground_assets/m1i155-uiyf-200h.png"
+                src="https://vinialexandre.github.io/landing-page-mitz-it/imgs/logo_header.png"
                 className="mitz-logo"
             />
             </div>
