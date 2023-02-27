@@ -6,7 +6,7 @@ export default function FourOhFour() {
             <Link href="/">
                 <img
                 alt="Mitz IT logo"
-                src="https://vinialexandre.github.io/landing-page-mitz-it/playground_assets/mitzitbege1551-ij3l-200h.png"
+                src="https://mitz-it.github.io/landing-page-mitz-it//playground_assets/mitzitbege1551-ij3l-200h.png"
                 className="mitz-logo-footer"
                 />
             </Link>

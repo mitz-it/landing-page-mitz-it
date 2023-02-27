@@ -47,7 +47,7 @@ const HomePage = (props) => {
           </span>
 
           <img
-            src="https://vinialexandre.github.io/landing-page-mitz-it/imgs/mitz_titulo_banner.png"
+            src="https://mitz-it.github.io/landing-page-mitz-it//imgs/mitz_titulo_banner.png"
             alt="Logo Mitz IT"
             className="mitz-logo-banner"
           />
@@ -99,7 +99,7 @@ const HomePage = (props) => {
             <span className="mitz-about-img">
               <img
                 alt="Mitz IT"
-                src="https://vinialexandre.github.io/landing-page-mitz-it/imgs/nossos_principios.png"
+                src="https://mitz-it.github.io/landing-page-mitz-it//imgs/nossos_principios.png"
               />
             </span>
             <span className="mitz-about-values-text">
@@ -197,7 +197,7 @@ const HomePage = (props) => {
             <div className="mitz-flex flex-team">
               <img
                 alt="Rectangle122314"
-                src="https://vinialexandre.github.io/landing-page-mitz-it/imgs/marcelo.jpg"
+                src="https://mitz-it.github.io/landing-page-mitz-it//imgs/marcelo.jpg"
                 className="mitz-img-team"
               />
               <div className="flex-text">
@@ -245,7 +245,7 @@ const HomePage = (props) => {
               </div>
               <img
                 alt="Rectangle122314"
-                src="https://vinialexandre.github.io/landing-page-mitz-it/imgs/ju.jpg"
+                src="https://mitz-it.github.io/landing-page-mitz-it//imgs/ju.jpg"
                 className="mitz-img-team"
               />
             </div>
@@ -283,7 +283,7 @@ const HomePage = (props) => {
           <AnchorLink href="#header">
             <img
               alt="Mitz IT logo"
-              src="https://vinialexandre.github.io/landing-page-mitz-it/imgs/logo_footer.png"
+              src="https://mitz-it.github.io/landing-page-mitz-it//imgs/logo_footer.png"
               className="mitz-logo-footer"
             />
           </AnchorLink>
