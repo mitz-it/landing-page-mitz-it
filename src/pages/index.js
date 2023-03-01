@@ -203,7 +203,7 @@ const HomePage = (props) => {
               <div className="flex-text">
                 <p>
                   <b>
-                    Marcelo - Fundador da Mitz IT, Tech Lead, Arquiteto de
+                    Marcelo Schmitz - Fundador da Mitz IT, Tech Lead, Arquiteto de
                     Software/Soluções e Gerente de Equipes
                   </b>
                 </p>
@@ -230,13 +230,13 @@ const HomePage = (props) => {
               <div className="flex-text">
                 <p>
                   <b>
-                    Juliana - Sócia da Mitz IT, Advogada e Responsável pela parte
+                    Juliana Bisognin - Sócia da Mitz IT, Advogada e Responsável pela parte
                     Jurídica
                   </b>
                 </p>
                 <p>
-                  Advogada, é responsável pela análise dos contratos dos clientes
-                  quanto e dos prestadores de serviço a fim de garantir uma
+                  Advogada, é responsável pela análise dos contratos tanto dos clientes
+                  quanto dos prestadores de serviço a fim de garantir uma
                   relação saudável entre todas as partes, mitigando riscos para
                   todos. Juliana possui experiência de mais de 10 anos no setor
                   jurídico visando a empresa, mas nunca deixando de ter olhar
