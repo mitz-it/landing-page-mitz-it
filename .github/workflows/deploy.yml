@@ -1,0 +1,44 @@
+name: Deploy
+
+on:
+  push:
+    branches: [ main ]
+  # release:
+  #   types: [created]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Dependencies
+        shell: bash
+        run: npm install
+
+      - name: Build Nextjs Application
+        shell: bash
+        run: npx next build
+
+      - name: Export Nextjs Build
+        shell: bash
+        run: npx next export
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1-node16
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_FOR_GITHUB_ACTIONS }}
+          aws-region: us-east-1
+
+      - name: AWS S3 Sync
+        shell: bash
+        run: aws s3 sync ./out s3://${{ secrets.BUCKET_NAME }}
