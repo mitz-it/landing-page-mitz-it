@@ -38,7 +38,7 @@ const HomePage = (props) => {
           <span className="mitz-title-header">
             <h1>
               Soluções de precisão,<br />
-              qualidade de ponta a ponta
+              Qualidade de ponta a ponta
             </h1>
             <h5>
               Metodologias ágeis e soluções turn key.<br />
@@ -47,7 +47,7 @@ const HomePage = (props) => {
           </span>
 
           <img
-            src="https://mitz-it.github.io/landing-page-mitz-it//imgs/mitz_titulo_banner.png"
+            src="/imgs/mitz_titulo_banner.png"
             alt="Logo Mitz IT"
             className="mitz-logo-banner"
           />
@@ -99,7 +99,7 @@ const HomePage = (props) => {
             <span className="mitz-about-img">
               <img
                 alt="Mitz IT"
-                src="https://mitz-it.github.io/landing-page-mitz-it//imgs/nossos_principios.png"
+                src="/imgs/nossos_principios.png"
               />
             </span>
             <span className="mitz-about-values-text">
@@ -197,7 +197,7 @@ const HomePage = (props) => {
             <div className="mitz-flex flex-team">
               <img
                 alt="Rectangle122314"
-                src="https://mitz-it.github.io/landing-page-mitz-it//imgs/marcelo.jpg"
+                src="/imgs/marcelo.jpg"
                 className="mitz-img-team"
               />
               <div className="flex-text">
@@ -245,7 +245,7 @@ const HomePage = (props) => {
               </div>
               <img
                 alt="Rectangle122314"
-                src="https://mitz-it.github.io/landing-page-mitz-it//imgs/ju.jpg"
+                src="/imgs/ju.jpg"
                 className="mitz-img-team"
               />
             </div>
@@ -283,7 +283,7 @@ const HomePage = (props) => {
           <AnchorLink href="#header">
             <img
               alt="Mitz IT logo"
-              src="https://mitz-it.github.io/landing-page-mitz-it//imgs/logo_footer.png"
+              src="/imgs/logo_footer.png"
               className="mitz-logo-footer"
             />
           </AnchorLink>

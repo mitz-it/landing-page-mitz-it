@@ -1,0 +1,65 @@
+# name: Deploy to GitHub Pages on Pull Request
+name: Pull Request - Build Application
+
+on:
+  pull_request:
+    # types:
+    #   - opened
+    #   - reopened
+    #   - synchronize
+    #   - closed
+
+# permissions:
+#   contents: read
+#   pages: write
+#   id-token: write
+
+concurrency: preview-${{ github.ref }}
+
+jobs:
+  deploy:
+    name: Build Mitz IT Landing Page
+    runs-on: ubuntu-latest    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      
+      - name: Install Dependencies
+        shell: bash
+        run: npm install
+
+      - name: Build Nextjs Application
+        shell: bash
+        run: npx next build
+
+      # - name: Export Nextjs Build
+      #   shell: bash
+      #   run: npx next export
+
+      # - name: Deploy preview
+      #   uses: rossjrw/pr-preview-action@v1
+      #   with:
+      #     source-dir: ./out/
+      #     preview-branch: gh-pages
+      #     umbrella-dir: pr-preview
+      #     action: auto
+
+  # deploy:
+  #   name: Deploy to GitHub Pages
+  #   runs-on: ubuntu-latest
+  #   needs: build
+  #   environment:
+  #     name: github-pages
+  #     url: ${{ steps.deployment.outputs.page_url }}
+    
+  #   steps:
+  #     - name: Deploy to GitHub Pages
+  #       id: deployment
+  #       uses: actions/deploy-pages@v1.2.4
