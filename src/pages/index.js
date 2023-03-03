@@ -38,7 +38,7 @@ const HomePage = (props) => {
           <span className="mitz-title-header">
             <h1>
               Soluções de precisão,<br />
-              Qualidade de ponta a ponta
+              qualidade de ponta a ponta
             </h1>
             <h5>
               Metodologias ágeis e soluções turn key.<br />
@@ -69,9 +69,9 @@ const HomePage = (props) => {
                 como também no apoio em decisões estratégicas na definição e
                 organização de produtos e serviços de software, alinhando e
                 solidificando as melhores práticas de mercado dentro da cultura
-                do cliente já existente. A Mitz IT conta com squads
+                já existente no cliente. A Mitz IT conta com squads
                 multidisciplinares e presta consultorias em tecnologia para as
-                equipes já existentes dentro da sua empresa.
+                equipes que já atuam dentro da sua empresa.
               </p>
               <p>
                 Para que isso ocorra, a Mitz IT tem uma sólida formação em
@@ -136,7 +136,7 @@ const HomePage = (props) => {
                 enxergar as necessidades técnicas e dimensionar a squad
                 necessária para o trabalho no tempo proposto, o que também
                 realizamos. A consultoria apoia tanto a execução de um
-                determinado produto de software como o setor de TI como um todo,
+                determinado produto de software quanto o setor de TI como um todo,
                 de forma que haja sincronia com os stakeholders.
               </p>
               <p>
@@ -277,7 +277,7 @@ const HomePage = (props) => {
               <a href="https://www.linkedin.com/company/mitz-it/" target="_blank">Linkedin</a>
             </span>
             <span className="mitz-email">
-              <a href="#contact">contato@mitz.com</a>
+              <a href="#contact">contato@mitzit.com.br</a>
             </span>
           </span>
           <AnchorLink href="#header">
