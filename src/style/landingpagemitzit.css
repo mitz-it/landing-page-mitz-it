@@ -252,6 +252,7 @@ span.mitz-about-values-text p {
 
 img.mitz-img-team {
   max-width: 260px !important;
+  max-height: 325px;
 }
 
 /*team*/
