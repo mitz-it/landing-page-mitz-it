@@ -2,16 +2,18 @@ name: Deploy to GitHub Pages on Pull Request
 
 on:
   pull_request:
-  workflow_dispatch:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
 
 permissions:
   contents: read
   pages: write
   id-token: write
 
-concurrency:
-  group: "pages"
-  cancel-in-progress: true
+concurrency: preview-${{ github.ref }}
 
 jobs:
   build:
@@ -28,11 +30,6 @@ jobs:
         with:
           node-version: 18
       
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-        with:
-          static_site_generator: next
-
       - name: Install Dependencies
         shell: bash
         run: npm install
@@ -45,10 +42,10 @@ jobs:
         shell: bash
         run: npx next export
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1.0.7
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
         with:
-          path: ./out
+          source-dir: ./out/
 
   deploy:
     name: Deploy to GitHub Pages
@@ -57,6 +54,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
