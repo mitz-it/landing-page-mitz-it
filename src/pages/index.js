@@ -38,7 +38,7 @@ const HomePage = (props) => {
           <span className="mitz-title-header">
             <h1>
               Soluções de precisão,<br />
-              qualidade de ponta a ponta
+              Qualidade de ponta a ponta
             </h1>
             <h5>
               Metodologias ágeis e soluções turn key.<br />
