@@ -1,12 +1,13 @@
-name: Deploy to GitHub Pages on Pull Request
+# name: Deploy to GitHub Pages on Pull Request
+name: Pull Request - Build Application
 
 on:
   pull_request:
-    types:
-      - opened
-      - reopened
-      - synchronize
-      - closed
+    # types:
+    #   - opened
+    #   - reopened
+    #   - synchronize
+    #   - closed
 
 # permissions:
 #   contents: read
@@ -17,7 +18,7 @@ concurrency: preview-${{ github.ref }}
 
 jobs:
   deploy:
-    name: Deploy PR to GH Pages
+    name: Build Mitz IT Landing Page
     runs-on: ubuntu-latest    
     steps:
       - name: Checkout
@@ -38,17 +39,17 @@ jobs:
         shell: bash
         run: npx next build
 
-      - name: Export Nextjs Build
-        shell: bash
-        run: npx next export
+      # - name: Export Nextjs Build
+      #   shell: bash
+      #   run: npx next export
 
-      - name: Deploy preview
-        uses: rossjrw/pr-preview-action@v1
-        with:
-          source-dir: ./out/
-          preview-branch: gh-pages
-          umbrella-dir: pr-preview
-          action: auto
+      # - name: Deploy preview
+      #   uses: rossjrw/pr-preview-action@v1
+      #   with:
+      #     source-dir: ./out/
+      #     preview-branch: gh-pages
+      #     umbrella-dir: pr-preview
+      #     action: auto
 
   # deploy:
   #   name: Deploy to GitHub Pages
